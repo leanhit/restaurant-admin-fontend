@@ -18,4 +18,9 @@ export default defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
+  server: {
+    port: 3000, // 🔥 Đổi cổng thành 3001 hoặc số khác
+    strictPort: true, // Nếu cổng bị chiếm, không tự động đổi
+    host: '0.0.0.0' // Cho phép truy cập từ mạng LAN
+  }
 });

@@ -29,11 +29,6 @@
                                 <strong>{{ t("Settings") }}</strong></span> <span class="float-right"></span></router-link>
 
                     </li>
-                    <li class="has_sub">
-                        <router-link to="/user"><i class="mdi mdi-settings"></i><span>
-                                <strong>{{ t("User") }}</strong></span> <span class="float-right"></span></router-link>
-
-                    </li>
                     <!-- <li class="has_sub">
                         <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-layers"></i> <span> Advanced UI
                             </span> <span class="float-right"><i class="mdi mdi-chevron-right"></i></span></a>
